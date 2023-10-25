@@ -1,4 +1,4 @@
-# Django import csv htmx hyperscript pandas example tutorial
+# Django htmx Out Of Band - oob solution example tutorial
 [link to Git-Hub source files](https://github.com/RobertoRubertelli/Django-htmx-oob-mechanism)
 ####
 
