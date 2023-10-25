@@ -1,0 +1,31 @@
+{% extends '_base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+{% block content %}
+
+
+<div class="container" >
+
+    <div id="allpartial">
+        <button id="oob"
+        hx-get="{% url 'home1' %}"
+        hx-target="#allpartial"
+        hx-swap-oob='true'
+        >Hi How are you? - Push me
+        </button>
+        
+        <br>
+        <br>
+        {% if msg  %}
+        <h5>{{ msg }}<h5>
+        {% endif %}
+    </div>
+
+
+</div>
+
+
+{% endblock content %}

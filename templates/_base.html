@@ -1,0 +1,60 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+
+{% block head %}
+
+
+  <head class='MyHead'>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1,">
+
+
+      <title>{% block title %} Home {% endblock %}</title>
+
+      <script src="https://unpkg.com/hyperscript.org@0.9.7"></script>
+      <script src="{% static 'js/htmx.min.js'%}"></script>
+
+      <script src="{% static 'js/jquery-3.5.1.min.js'%}"></script>
+
+      <script src="{% static 'js/bootstrap.bundle.js'%}"></script>
+
+      <meta http-equiv="Content-Type" content="text/html5;charset=UTF-8">
+      <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+      <link href="{% static 'css/base.css' %}" rel="stylesheet">
+      <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+
+  </head>  
+
+{% endblock head %}
+
+
+{% block cookie %}
+{% endblock cookie %}
+
+
+{% block header %}
+<header>
+</header>
+{% endblock header %}
+
+
+{% block nav %}
+<nav>
+</nav>
+{% endblock nav %}
+
+
+{% block content %}
+{% endblock content %}
+
+<body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'></body>
+
+{% block footer %}
+{% endblock footer %}
+
+{% block javascript %}
+{% endblock javascript %}

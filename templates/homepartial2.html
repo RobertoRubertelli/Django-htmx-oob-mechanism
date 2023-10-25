@@ -1,0 +1,11 @@
+<button id="oob"
+hx-get="{% url 'home1' %}"
+hx-target = "#allpartial"
+>Hi, How are you? - Push me
+</button>
+<br>
+<br>
+{% if msg  %}
+<h5>{{ msg }}<h5>
+{% endif %}
+
