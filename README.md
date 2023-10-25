@@ -10,7 +10,7 @@ to swap in updated content to the DOM.
 In this demo I haven't any model.
 The button could be a table, the oob mechanism is the same.
 
-My Tutorial [Django htmx oob]()
+My Tutorial [Django htmx oob](https://www.managepy.it/demo/oobtutorial)
 
 My Site [Managepy.it](https://www.managepy.it/)
 
